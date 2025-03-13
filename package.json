@@ -24,5 +24,8 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"dependencies": {
+		"binary-tree-visualizer": "^2.1.5"
 	}
 }

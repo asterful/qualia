@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      binary-tree-visualizer:
+        specifier: ^2.1.5
+        version: 2.1.5
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^4.0.0
@@ -354,6 +358,9 @@ packages:
   axobject-query@4.1.0:
     resolution: {integrity: sha512-qIj0G9wZbMGNLjLmg1PT6v2mE9AH2zlnADJD/2tC6E00hgmhUOfEB6greHPAfLRSufHqROIUTkw6E+M3lH0PTQ==}
     engines: {node: '>= 0.4'}
+
+  binary-tree-visualizer@2.1.5:
+    resolution: {integrity: sha512-j0otdj8To0Qmk8e1BOQ6zA/SeYwm9wtZyDvYJeSqrxiss2rnfU1J04Ax97fDmV0waWmiPpC4CrdpQySqIorGxw==}
 
   chokidar@4.0.3:
     resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
@@ -757,6 +764,8 @@ snapshots:
   aria-query@5.3.2: {}
 
   axobject-query@4.1.0: {}
+
+  binary-tree-visualizer@2.1.5: {}
 
   chokidar@4.0.3:
     dependencies:
